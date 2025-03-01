@@ -1,0 +1,113 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #0c172f;
+    color: white;
+    height: 5vh;
+    text-align: center;
+  }
+
+ .navbar-logo{
+  margin-top: -20px;
+ }
+  
+  .navbar-links {
+    display: flex;
+    text-align: center;
+   
+  }
+
+  .navbar-links  li {
+    margin-left: 15px;
+    margin-top: -13px;
+    text-decoration: none;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .navbar-links a:hover{
+    color: #31c0f0;
+  }
+
+  .navbar-right{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar-user {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .profile-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;; /* Adjust the size as needed */ /* Adjust the background color as needed */
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+    
+  .icon-txt{
+    color:black;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .profile-button span,
+  .login-button span {
+    margin-left: 0.5rem;
+  }
+  
+  .profile-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 200px;
+  }
+
+
+  .profile-dropdown .profile-item {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .profile-dropdown .profile-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .profile-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-item span {
+    margin-left: 0.5rem;
+  }
+  
+  .login-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .login-button:hover {
+    text-decoration: none;
+    color: #31c0f0;
+  }
+  

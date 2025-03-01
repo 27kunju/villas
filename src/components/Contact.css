@@ -1,0 +1,73 @@
+.contact-us-container {
+    padding: 20px;
+  }
+  
+  .contact-us-container h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+  }
+  
+  .contact-item i {
+    left: 0;
+    font-size: 1.5em;
+  }
+  
+  .enquiry-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .enquiry-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .enquiry-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .enquiry-form label {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1em;
+  }
+  
+  .enquiry-form input,
+  .enquiry-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .enquiry-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .enquiry-form button:hover {
+    background-color: #0056b3;
+  }
+  

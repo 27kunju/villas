@@ -1,0 +1,86 @@
+.carousel-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+
+.location-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.location-input input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+.date-picker {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  flex-grow: 1;
+  width: 50px;
+  height: 15px;
+}
+
+.date-picker input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+.date-picker :hover{
+  border: black;
+
+}
+
+.search-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.search-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.villa-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
